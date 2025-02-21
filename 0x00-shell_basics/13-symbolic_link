@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script creates a symbolic link named '__ls__' that points to the '/bin/ls' executable.
+# A symbolic link is a type of file that is a reference to another file or directory.
+# The 'ln -s' command is used to create the soft symbolic link.
+ln -s /bin/ls __ls__

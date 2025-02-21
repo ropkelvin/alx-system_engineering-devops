@@ -1,0 +1,3 @@
+#!/bin/bash
+# This script moves the file named 'betty' from the /tmp directory to the /tmp/my_first_directory directory.
+mv /tmp/betty /tmp/my_first_directory

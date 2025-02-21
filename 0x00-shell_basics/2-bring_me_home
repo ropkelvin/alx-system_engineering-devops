@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the current directory to the user's home directory.
+# It uses the built-in shell variable $HOME, which stores the path to the home directory.
+cd $HOME

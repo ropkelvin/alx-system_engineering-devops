@@ -1,0 +1,3 @@
+#!/bin/bash
+# This script removes the file named 'betty' located in the directory '/tmp/my_first_directory'.
+rm /tmp/my_first_directory/betty

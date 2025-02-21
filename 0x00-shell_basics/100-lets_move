@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script moves all files and directories in the current directory 
+# that start with an uppercase letter to the /tmp/u directory.
+mv [[upper]]* /tmp/u

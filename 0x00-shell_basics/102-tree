@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script creates a nested directory structure "welcome/to/school"
+# using the `mkdir` command with the `-p` option.
+# The `-p` option ensures that parent directories are created as needed
+# and no error is thrown if the directories already exist.
+mkdir -p welcome/to/school

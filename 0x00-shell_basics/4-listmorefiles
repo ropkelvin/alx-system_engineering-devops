@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script lists all files and directories in the current directory
+# in long format, including hidden files.
+ls -al

@@ -1,0 +1,12 @@
+/*
+ * This file is a magic file used by the `file` command to identify files of a specific type.
+ * 
+ * The magic file contains a single entry that specifies:
+ * - An offset of 0 bytes (indicating the start of the file).
+ * - A string type with the value "SCHOOL".
+ * - A description "School data file" that will be displayed when a file matches this pattern.
+ * 
+ * Usage:
+ * The `file` command uses this magic file to determine if a file is a "School data file" by checking if the file starts with the string "SCHOOL".
+ */
+0 string SCHOOL School data file

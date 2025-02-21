@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script lists files and directories in the current directory
+# using the `ls` command with the following options:
+# -n: Displays user and group IDs numerically rather than converting to a username or group name.
+# -a: Includes directory entries whose names begin with a dot (.)
+ls -na

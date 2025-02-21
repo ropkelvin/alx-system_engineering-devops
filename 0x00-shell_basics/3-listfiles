@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script lists files in the current directory in long format.
+# The 'ls -l' command provides detailed information about each file,
+# including permissions, number of links, owner, group, size, and timestamp.
+ls -l

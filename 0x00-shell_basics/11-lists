@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script lists all files and directories (including hidden ones) in the current directory (.), 
+# the parent directory (..), and the /boot directory with detailed information.
+# The `-a` option includes hidden files, and the `-l` option provides a long listing format.
+ls -al . .. /boot

@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script lists the contents of the current directory in a comma-separated format.
+# Options used:
+# -m: Stream output format with comma-separated entries.
+# -a: Include hidden files (those starting with a dot).
+# -p: Append a slash (/) to directories.
+ls -map

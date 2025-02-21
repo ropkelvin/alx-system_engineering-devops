@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script removes all files in the current directory that end with a tilde (~).
+# These files are typically backup files created by text editors like Emacs.
+rm *~

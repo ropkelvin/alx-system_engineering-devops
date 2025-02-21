@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the current working directory to the previous one.
+# The `cd -` command is a shortcut that switches to the last directory you were in.
+cd -

@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script checks the type of the file located at /tmp/iamafile
+# using the 'file' command, which determines the file type.
+file /tmp/iamafile
