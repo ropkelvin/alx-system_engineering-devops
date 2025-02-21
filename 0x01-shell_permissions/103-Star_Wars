@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script connects to the Star Wars ASCII movie using telnet.
+# It connects to the server towel.blinkenlights.nl which hosts the movie.
+# Ensure you have telnet installed on your system to run this script.
+telnet towel.blinkenlights.nl

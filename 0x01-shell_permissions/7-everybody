@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the permissions of the file "hello" to make it executable by all users.
+# The "+x" option adds execute permissions for the user, group, and others.
+chmod +x hello

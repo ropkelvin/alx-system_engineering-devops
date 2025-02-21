@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script changes the permissions of the file 'hello' to match those of the file 'olleh'.
+# It uses the 'chmod' command with the '--reference' option to copy the permissions from 'olleh' to 'hello'.
+chmod --reference=olleh hello
+

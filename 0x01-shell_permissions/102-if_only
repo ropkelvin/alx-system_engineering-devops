@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the owner of the file 'hello' from 'guillaume' to 'betty'
+# using the 'chown' command with the '--from' option to specify the current owner.
+chown --from=guillaume betty hello

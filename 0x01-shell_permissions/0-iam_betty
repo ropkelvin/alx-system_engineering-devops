@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script switches the current user to the user 'betty'.
+# Usage: Run this script to change the current user to 'betty'.
+su betty

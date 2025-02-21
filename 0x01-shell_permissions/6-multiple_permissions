@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script changes the permissions of the file "hello" as follows:
+# - Adds execute (x) permission for the user (u)
+# - Adds execute (x) permission for the group (g)
+# - Adds read (r) permission for others (o)
+chmod u+x,g+x,o+r hello

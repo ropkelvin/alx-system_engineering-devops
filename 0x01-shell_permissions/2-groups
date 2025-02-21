@@ -1,0 +1,3 @@
+#!/bin/bash
+# This script displays the groups the current user is a part of.
+groups

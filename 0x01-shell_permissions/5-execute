@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the permissions of the file named 'hello'
+# located in the current directory, adding execute permissions for the user (owner).
+chmod u+x hello

@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the owner and group of files and directories recursively.
+# The new owner will be 'vincent' and the new group will be 'staff'.
+chown -R vincent:staff

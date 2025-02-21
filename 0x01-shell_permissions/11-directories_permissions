@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script changes the permissions of all files and directories
+# within the current directory (recursively) to make them executable
+# by the user, group, and others.
+chmod -R ugo+x .

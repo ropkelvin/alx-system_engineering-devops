@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script changes the permissions of the file named "hello" to 753.
+# Permissions breakdown:
+# - Owner: read, write, and execute (7)
+# - Group: read and execute (5)
+# - Others: write and execute (3)
+chmod 753 hello

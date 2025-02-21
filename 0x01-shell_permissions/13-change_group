@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the group ownership of the file 'hello' to 'school'.
+# Ensure that the file 'hello' exists in the current directory before running the script.
+chgrp school hello

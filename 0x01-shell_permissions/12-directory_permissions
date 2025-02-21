@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script creates a directory named 'my_dir' with specific permissions.
+# The '-m 751' option sets the permissions of the directory to 751.
+# Permission breakdown:
+# 7 - Owner has read, write, and execute permissions.
+# 5 - Group has read and execute permissions.
+# 1 - Others have execute permission only.
+mkdir -m 751 my_dir

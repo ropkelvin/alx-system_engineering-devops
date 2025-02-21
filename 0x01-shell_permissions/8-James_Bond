@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script changes the permissions of the file "hello" to 007.
+# The owner and group will have no permissions, while others will have read, write, and execute permissions.
+chmod 007 hello
