@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script displays the content of the /etc/passwd file.
+# The /etc/passwd file contains user account information.
+# Each line in this file represents a single user account.
+cat /etc/passwd

@@ -1,0 +1,11 @@
+#!/bin/bash
+# This script finds all files with a .gif extension in the current directory and its subdirectories.
+# It then extracts the filenames without their extensions, sorts them in a case-insensitive manner, and prints the sorted list.
+# The steps are as follows:
+# 1. `find -type f -name "*.gif"`: Finds all files with a .gif extension.
+# 2. `rev`: Reverses the characters in each line.
+# 3. `cut -d "/" -f 1`: Cuts the reversed string to get the filename (now reversed) without the path.
+# 4. `cut -d '.' -f 2-`: Removes the reversed extension from the filename.
+# 5. `rev`: Reverses the characters back to their original order.
+# 6. `LC_ALL=C sort -f`: Sorts the filenames in a case-insensitive manner using the C locale.
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f

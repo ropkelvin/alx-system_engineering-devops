@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script finds all empty files and directories in the current directory and its subdirectories.
+# It then extracts the names of these empty files and directories.
+# The 'find . -empty' command searches for empty files and directories.
+# The 'rev' command reverses the characters in each line of the output.
+# The 'cut -d '/' -f 1' command extracts the first field (which is the reversed name) from the reversed path.
+# The final 'rev' command reverses the characters again to get the original names of the empty files and directories.
+find . -empty | rev | cut -d '/' -f 1 | rev

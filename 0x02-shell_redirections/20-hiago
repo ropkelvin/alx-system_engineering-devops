@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script uses the 'tr' command to delete all occurrences of the characters 'c' and 'C' from the input.
+# Usage: Provide input through standard input (stdin) or a file.
+# Example: echo "Chocolate Cake" | ./20-hiago
+# Output: "hoolate ake"
+tr -d "cC"

@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script sorts the input and then filters out only the unique lines.
+# The 'sort' command sorts the lines of text in the input.
+# The 'uniq -u' command filters out lines that are repeated, leaving only unique lines.
+sort | uniq -u

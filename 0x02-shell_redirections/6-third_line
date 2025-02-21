@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script extracts and prints the third line from the file named 'iacta'.
+# It first uses 'head -n 3' to get the first three lines of the file,
+# and then pipes the output to 'tail -n 1' to get the last line from the three lines,
+# effectively retrieving the third line of the file.
+head -n 3 iacta | tail -n 1

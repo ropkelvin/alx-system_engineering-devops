@@ -1,0 +1,9 @@
+#!/bin/bash
+# This script finds and deletes all files with a .js extension
+# in the current directory and its subdirectories.
+# 
+# - `find .`: Starts the search in the current directory.
+# - `-type f`: Limits the search to files only.
+# - `-name "*.js"`: Searches for files with a .js extension.
+# - `-delete`: Deletes the found files.
+find . -type f -name "*.js" -delete

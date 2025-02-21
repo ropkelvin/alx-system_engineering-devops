@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script writes the string 'Best School' to a file named *\'"Best School"'\*$?*****:)
+# The file will be created in the current directory if it does not already exist.
+# The special characters in the filename are escaped using backslashes to ensure they are interpreted literally.
+echo 'Best School' > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)

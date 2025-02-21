@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script appends the last line of the file 'iacta' to the end of the same file.
+# It uses the 'tail' command to extract the last line and the '>>' operator to append it.
+tail -n 1 iacta >> iacta

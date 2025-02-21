@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script searches for the keyword "root" in the /etc/passwd file
+# and displays the matching line along with the next 3 lines of context.
+# The -A 3 option in the grep command specifies that 3 lines of context
+# after the matching line should be included in the output.
+grep -A 3 root /etc/passwd

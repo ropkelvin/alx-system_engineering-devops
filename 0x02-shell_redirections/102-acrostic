@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script reads from standard input, extracts the first character of each line,
+# and then concatenates these characters into a single string without any delimiters.
+# Usage: ./102-acrostic < input_file
+cut -c 1 | paste -s -d ''

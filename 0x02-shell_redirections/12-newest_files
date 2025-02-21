@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script lists the 10 most recently modified files in the current directory.
+# - `ls -t1` lists files sorted by modification time, newest first, with one file per line.
+# - `head -n 10` then takes the first 10 lines from this list, displaying the 10 newest files.
+ls -t1 | head -n 10

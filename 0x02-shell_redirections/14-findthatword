@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script searches for the word "root" (case insensitive) in the /etc/passwd file.
+# It uses the grep command with the -i option to ignore case distinctions.
+grep -i root /etc/passwd

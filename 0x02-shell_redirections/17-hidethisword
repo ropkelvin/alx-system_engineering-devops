@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script filters out lines containing the word "bin" from the /etc/passwd file
+# and displays the remaining lines. The -v option in grep inverts the match, 
+# meaning it selects all lines that do not match the specified pattern.
+grep -v bin /etc/passwd

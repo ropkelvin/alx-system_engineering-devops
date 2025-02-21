@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script displays the last 10 lines of the /etc/passwd file.
+# The /etc/passwd file contains user account information.
+# The 'tail' command is used to output the last part of files.
+# The '-n 10' option specifies that the last 10 lines should be shown.
+tail -n 10 /etc/passwd
+

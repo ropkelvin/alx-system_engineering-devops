@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script performs two character translations using the `tr` command.
+# First, it translates all occurrences of the character 'A' to 'Z'.
+# Then, it translates all occurrences of the character 'c' to 'e'.
+# Note: The input is expected to be provided via standard input.
+tr "A" "Z" | tr "c" "e"

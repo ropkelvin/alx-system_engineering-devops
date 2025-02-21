@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script prints a confused smiley face to the terminal.
+# The smiley face is represented as: "(Ôo)'
+# The echo command is used to output the smiley face, with the special characters properly escaped.
+echo "\"(Ôo)'"

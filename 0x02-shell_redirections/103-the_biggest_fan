@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script processes input data to find the top 10 most frequent lines (excluding the header).
+# It performs the following steps:
+# 1. `tail -n +2`: Skips the first line of the input (header).
+# 2. `cut -f -1`: Extracts the first field from each line.
+# 3. `sort -k 1`: Sorts the lines based on the first field.
+# 4. `uniq -c`: Counts the occurrences of each unique line.
+# 5. `sort -rnk 1`: Sorts the lines in reverse numerical order based on the count.
+# 6. `head -n 11`: Selects the top 11 lines (including the header).
+# 7. `rev`: Reverses the characters in each line.
+# 8. `cut -d ' ' -f -1`: Extracts the first field from each reversed line.
+# 9. `rev`: Reverses the characters in each line back to the original order.
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev

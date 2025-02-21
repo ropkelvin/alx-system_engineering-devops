@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script lists all files and directories in the current working directory
+# in long format (including hidden files) and redirects the output to a file
+# named 'ls_cwd_content'.
+ls -al > ls_cwd_content

@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script reads from standard input and reverses the lines of text.
+# Usage: ./21-reverse < inputfile > outputfile
+# Example: echo "Hello World" | ./21-reverse
+# Output: "dlroW olleH"
+rev

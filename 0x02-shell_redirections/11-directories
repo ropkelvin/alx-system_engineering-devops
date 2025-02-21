@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script counts the number of directories (excluding the current directory)
+# in the current directory and its subdirectories.
+# - `find . -mindepth 1 -type d` lists all directories starting from the current directory (.)
+#   but excludes the current directory itself (due to -mindepth 1).
+# - `| wc -l` pipes the output of the find command to `wc -l`, which counts the number of lines,
+#   effectively giving the number of directories found.
+find . -mindepth 1 -type d | wc -l

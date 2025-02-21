@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script filters and displays lines from the /etc/passwd file that start with a letter (either uppercase or lowercase).
+# The grep command is used with the regular expression "^[a-zA-Z]" to match lines beginning with any letter.
+grep "^[a-zA-Z]" /etc/passwd

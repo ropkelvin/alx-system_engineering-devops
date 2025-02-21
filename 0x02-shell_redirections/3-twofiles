@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script concatenates and displays the contents of two files: /etc/passwd and /etc/hosts.
+# /etc/passwd: Contains user account information.
+# /etc/hosts: Contains static table lookup for hostnames.
+cat /etc/passwd /etc/hosts

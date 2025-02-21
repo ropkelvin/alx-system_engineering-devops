@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script extracts the username and home directory fields from the /etc/passwd file,
+# then sorts the output alphabetically by username.
+# - `cut -d: -f1,6 /etc/passwd` extracts the first (username) and sixth (home directory) fields
+#   from each line of the /etc/passwd file, using ':' as the delimiter.
+# - `sort` sorts the extracted fields alphabetically by the username.
+cut -d: -f1,6 /etc/passwd | sort

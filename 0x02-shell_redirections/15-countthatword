@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script counts the number of lines in the /etc/passwd file that contain the word "bin".
+# The `grep -c` command is used to perform the count.
+grep -c bin /etc/passwd
