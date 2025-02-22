@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script appends the directory "/action" to the existing PATH environment variable.
+# The PATH variable is a list of directories that the shell searches through to find executable files.
+# By adding "/action" to PATH, any executable files in the "/action" directory can be run from anywhere in the shell.
+export PATH=$PATH:/action

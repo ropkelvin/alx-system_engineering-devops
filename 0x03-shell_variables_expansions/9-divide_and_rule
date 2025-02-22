@@ -1,0 +1,5 @@
+#!/bin/bahs
+# This script performs integer division of two variables, POWER and DIVIDE.
+# It echoes the result of dividing the value of POWER by the value of DIVIDE.
+# Ensure that both POWER and DIVIDE are set to integer values before running this script.
+echo $(($POWER / $DIVIDE))

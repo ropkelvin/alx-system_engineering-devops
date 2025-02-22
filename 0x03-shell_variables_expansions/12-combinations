@@ -1,0 +1,9 @@
+#!/bin/bash
+# This script generates all possible two-letter combinations from 'aa' to 'zz',
+# then filters out any combinations that contain 'oo'.
+# 
+# Steps:
+# 1. `echo {a..z}{a..z}`: Generates all two-letter combinations from 'aa' to 'zz'.
+# 2. `tr ' ' '\n'`: Translates spaces to newlines to print each combination on a new line.
+# 3. `grep -v oo`: Filters out lines that contain 'oo'.
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo

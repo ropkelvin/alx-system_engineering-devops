@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script sets and lists all the shell variables, including environment variables,
+# shell functions, and local variables. The 'set' command is used to display these variables.
+set

@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script converts a decimal number to its hexadecimal representation.
+# It uses the printf command with the '%X' format specifier to format the
+# decimal number stored in the variable DECIMAL as a hexadecimal number.
+# The result is printed to the standard output.
+printf '%X\n' $DECIMAL

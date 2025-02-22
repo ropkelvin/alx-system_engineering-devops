@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script calculates the result of raising the value of the BREATHE environment variable
+# to the power of the value of the LOVE environment variable and prints the result.
+# Usage: Ensure that both BREATHE and LOVE environment variables are set before running the script.
+echo $((&BREATHE ** $LOVE))

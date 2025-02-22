@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script creates a local variable named BEST and assigns it the value "School".
+# Note: Ensure there are no spaces around the equal sign when assigning the value to the variable.
+BEST="School"

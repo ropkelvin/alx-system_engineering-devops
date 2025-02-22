@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script calculates the sum of 128 and the value of the environment variable TRUEKNOWLEDGE.
+# It uses arithmetic expansion to perform the addition and echoes the result.
+# Ensure that the TRUEKNOWLEDGE variable is set before running this script.
+echo $((128 + $TRUEKNOWLEDGE))

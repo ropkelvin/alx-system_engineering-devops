@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script prints the value of the environment variable NUM
+# formatted as a floating-point number with two decimal places.
+# Usage: Set the NUM variable before running the script.
+# Example:
+#   export NUM=3.14159
+#   ./13-print_float
+# Output:
+#   3.14
+printf "%.2f\n" $NUM

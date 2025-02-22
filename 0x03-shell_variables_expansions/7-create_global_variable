@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script creates a global environment variable named BEST and assigns it the value "School".
+# The export command makes the variable available to all child processes of the shell.
+export BEST="School"

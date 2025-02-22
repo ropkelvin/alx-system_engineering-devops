@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script converts a binary number stored in the variable BINARY to its decimal equivalent.
+# It uses the built-in shell arithmetic expansion $((...)) with base 2 (binary) notation.
+# Usage: Set the BINARY variable to a binary number and run the script to get the decimal output.
+echo "$((2#$BINARY))"

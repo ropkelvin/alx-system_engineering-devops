@@ -1,0 +1,9 @@
+#!/bin/bash
+# This script counts the number of directories in the PATH environment variable.
+# It does this by:
+# 1. Echoing the PATH variable.
+# 2. Using grep to find all occurrences of the pattern ":/" which indicates a directory separator.
+# 3. Counting the number of matches with wc -l.
+# 4. Adding 1 to the count to account for the first directory which does not start with ":/".
+# The final result is the total number of directories in the PATH.
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))

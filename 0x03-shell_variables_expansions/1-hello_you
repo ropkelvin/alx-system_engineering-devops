@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script prints a greeting message "Hello" followed by the current user's username.
+# The $USER variable is an environment variable that holds the name of the currently logged-in user.
+echo Hello $USER
