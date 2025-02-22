@@ -1,2 +1,7 @@
 #!/bin/bash
+# This script performs a series of transformations and calculations on two environment variables: WATER and STIR.
+# 1. It replaces the characters in WATER with corresponding digits (w=0, a=1, t=2, e=3, r=4).
+# 2. It replaces the characters in STIR with corresponding digits (s=0, t=1, i=2, r=3).
+# 3. It adds the transformed numeric values of WATER and STIR.
+# 4. It converts the resulting sum from digits to a specific set of characters (0=b, 1=e, 2=s, 3=t, 4=c, 5=h, 6=o, 7=l).
 echo $(expr $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir' '0123')) | tr '0123456789' 'bestchol'
